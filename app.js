@@ -95,7 +95,7 @@ function selectAnswer(e) {
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play again";
+    nextButton.innerHTML = "Made by Aaron Mathew Daniel";
     nextButton.style.display = "block"
 }
 
